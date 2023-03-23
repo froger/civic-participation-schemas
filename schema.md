@@ -1,6 +1,4 @@
-# Participatory Processes - schema
-
-## Draft
+# Participatory Processes - schema draft
 
 ![High-level view](schema.png)
 
