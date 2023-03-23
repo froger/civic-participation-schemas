@@ -3,7 +3,7 @@
 ```
 name: Text
 steps: Step[]
-budget: Budget
+budget: MonetaryAmount
 start: Date
 end: Date
 ```
@@ -20,13 +20,19 @@ name: Text
 ## Proposal
 
 ```
-author: Person/Organization
+author: Person or Organization
 title: Text
-dsescription: Text
-cost: Number/Price
+description: Text
+cost: MonetaryAmount
 Scope: Text
 ancestors: Proposal[]
 successors: Proposal[]
 currentStep: Step
 activities: Activity[]
+```
+
+## Activity
+
+```
+tbd.
 ```
