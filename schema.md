@@ -1,20 +1,34 @@
+## ParticipatorySpace
+
+```
+since: Date
+owner: AdministrativeArea
+schedule: Schedule
+cumulativeBudget: MonetaryAmount
+```
+
+
 ## ParticipatoryProcess
 
 ```
 name: Text
-steps: Step[]
+description: Text
+definition: Step[]
 budget: MonetaryAmount
 start: Date
 end: Date
+currentStep: Step
+participatorySpace: ParticipatorySpace
 ```
 
 ## Step
 
 ```
+name: Text
 start: Date
 end: Date
 constraints: Text
-name: Text
+possibleActivities: Activity[]
 ```
 
 ## Proposal
@@ -27,12 +41,21 @@ cost: MonetaryAmount
 Scope: Text
 ancestors: Proposal[]
 successors: Proposal[]
-currentStep: Step
 activities: Activity[]
 ```
 
-## Activity
+## Activity (enumeration)
 
 ```
-tbd.
+Submission
+Retraction
+Amendment
+Merge
+Split
+Cancellation
+VoteAccepting
+VoteRejecting
+ImplementationSuccessful
+ImplementationPartlySuccessful
+ImplementationUnsuccessful
 ```
