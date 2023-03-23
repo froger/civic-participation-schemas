@@ -1,3 +1,9 @@
+# Participatory Processes - schema
+
+## Draft
+
+![High-level view](schema.png)
+
 ## ParticipatorySpace
 
 ```
@@ -7,12 +13,12 @@ schedule: Schedule
 cumulativeBudget: MonetaryAmount
 ```
 
-
 ## ParticipatoryProcess
 
 ```
 name: Text
 description: Text
+topics: DefinedTerm[]
 definition: Step[]
 budget: MonetaryAmount
 start: Date
@@ -37,8 +43,12 @@ possibleActivities: Activity[]
 author: Person or Organization
 title: Text
 description: Text
-cost: MonetaryAmount
+topics: DefinedTerm
+affected: AdministrativeArea or Place
+proposedBudget: MonetaryAmount
+approvedBudget: MonetaryAmount
 Scope: Text
+participatoryProcess: ParticipatoryProcess
 ancestors: Proposal[]
 successors: Proposal[]
 activities: Activity[]
@@ -53,9 +63,11 @@ Amendment
 Merge
 Split
 Cancellation
+BudgetChange
 VoteAccepting
 VoteRejecting
 ImplementationSuccessful
 ImplementationPartlySuccessful
 ImplementationUnsuccessful
+ImplementationAborted
 ```
