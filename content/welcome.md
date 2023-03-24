@@ -12,7 +12,7 @@ this working group create, maintain and promote civic participation ontology. th
 4. [semantic first](https://www.w3.org/TR/prov-o/) over adapt later
 
 ## events
-- march 2023: [#GovHackathon23](https://opendata.ch/events/govtech-hackathon/) in bern, switzerland.
+- march 2023: [#GovTechHack23](https://opendata.ch/events/govtech-hackathon/) in bern, switzerland.
 - present the shema to json-ld and schema.org w3c working group
 
 ## roadmap
