@@ -32,6 +32,7 @@ start: Date
 end: Date
 currentStep: Step
 participatorySpace: ParticipatorySpace
+availableAction: FollowAction
 ```
 
 ## Step < TranslatedThing
@@ -61,7 +62,26 @@ participatoryProcess: ParticipatoryProcess
 ancestors: Proposal[]
 successors: Proposal[]
 activities: Activity[]
+availableActions: VoteAction | DelegateVoteAction | CommentAction | ShareAction | FollowAction
 ```
+
+## VoteAction < Action
+```
+voteType: Text 
+```
+
+## DelegateVoteAction < Action
+```
+availableRepresentants: Person[] | Organization[]
+```
+
+## FollowAction < Action
+
+## CommentAction < Action
+
+## ShareAction < Action
+
+---
 
 ## Activity
 ```
