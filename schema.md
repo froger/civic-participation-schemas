@@ -2,18 +2,27 @@
 
 ![High-level view](schema.png)
 
+## TranslatedThing
+```
+inLanguage: Language | Text
+availableLanguages: Language[] | Text
+machineTranslated: Boolean
+```
+
 ## ParticipatorySpace
 
 ```
+identifier: PropertyValue | Text | URL
 since: Date
 owner: AdministrativeArea
 schedule: Schedule
 cumulativeBudget: MonetaryAmount
 ```
 
-## ParticipatoryProcess
+## ParticipatoryProcess < TranslatedThing
 
 ```
+identifier: PropertyValue | Text | URL
 name: Text
 description: Text
 topics: DefinedTerm[]
@@ -25,9 +34,10 @@ currentStep: Step
 participatorySpace: ParticipatorySpace
 ```
 
-## Step
+## Step < TranslatedThing
 
 ```
+identifier: PropertyValue | Text | URL
 name: Text
 start: Date
 end: Date
@@ -35,9 +45,10 @@ constraints: Text
 possibleActivities: Activity[]
 ```
 
-## Proposal
+## Proposal < TranslatedThing
 
 ```
+identifier: PropertyValue | Text | URL
 author: Person | Organization
 title: Text
 description: Text
@@ -54,6 +65,7 @@ activities: Activity[]
 
 ## Activity
 ```
+identifier: PropertyValue | Text | URL
 actor: Person | Organization
 do: ActivityVerb
 actsOn: Thing
