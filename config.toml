@@ -1,0 +1,20 @@
+baseURL = "https://participation-ontology.ch"
+languageCode = "en-us"
+title = "the participation ontology working group"
+theme = 'archie'
+copyright = "APGL-V3"
+paginate = 4
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/froger/civic-participation-schemas"
+[params]
+	customcss = ["css/colors.css"]
+
+[[menu.main]]
+name = "ontologies"
+url = "/posts/ontologies"
+weight = 2

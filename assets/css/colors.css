@@ -1,0 +1,16 @@
+:root {
+    --maincolor: #b30000;
+    --bordercl: #f9dc4a;
+    --callouctcolor: #005797;
+    --hovercolor: #024488;
+    --darkMaincolor: #50fa7b;
+}
+
+html{
+    color: #111111;
+}
+main {
+    min-height: 55vh;
+}
+.meta { display: none;}
+footer  {border-top: none;}
