@@ -11,6 +11,10 @@ pygmentscodefencesguesssyntax = true
 name = "Github"
 icon = "github"
 url = "https://github.com/froger/civic-participation-schemas"
+[[params.social]]
+name = "Linktree"
+icon = "website"
+url="https://linktr.ee/participation_ontology"
 [params]
 	customcss = ["css/colors.css"]
 
