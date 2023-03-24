@@ -38,7 +38,7 @@ possibleActivities: Activity[]
 ## Proposal
 
 ```
-author: Person or Organization
+author: Person | Organization
 title: Text
 description: Text
 topics: DefinedTerm
@@ -63,17 +63,18 @@ at: DateTime
 ### ActivityVerb
 
 ```
-Submission
-Retraction
-Amendment
+Submit
+Retract
+Amend
 Merge
 Split
-Cancellation
-BudgetChange
-VoteAccepting
-VoteRejecting
-ImplementationSuccessful
-ImplementationPartlySuccessful
-ImplementationUnsuccessful
-ImplementationAborted
+Cancel
+ChangeBudget
+VoteInFavour
+VoteAgainst
+StartImplementation
+ImplementSuccessfully
+ImplementPartlySuccessfully
+ImplementUnsuccessfully
+AbortImplementation
 ```
