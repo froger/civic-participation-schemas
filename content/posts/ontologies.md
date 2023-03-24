@@ -25,7 +25,6 @@ date: 2023-03-23
 # Participatory Processes - schema draft
 
 ![High-level view](/images/schema.png)
-
 ## TranslatedThing
 ```
 inLanguage: Language | Text
@@ -85,8 +84,8 @@ Scope: Text
 participatoryProcess: ParticipatoryProcess
 ancestors: Proposal[]
 successors: Proposal[]
-activities: Activity[]
-availableActions: VoteAction | DelegateVoteAction | CommentAction | ShareAction | FollowAction
+history: Activity[]
+availableActions: Action[]
 ```
 
 ## VoteAction < Action
