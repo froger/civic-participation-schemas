@@ -29,7 +29,7 @@ what is the governance? issues are suggestion, the maintainers integrate the iss
 
 ## contributors
 -  [hadrien froger](https://github.com/froger)
--  [lucas liechti](https://github.com/lucaliechti)
+-  [luca liechti](https://github.com/lucaliechti)
 -  daniel keller
 -  you?
 
