@@ -15,7 +15,23 @@ this working group create, maintain and promote civic participation ontology. th
 - march 2023: #GovHackathon23 in bern, switzerland.
 - present the shema to json-ld and schema.org w3c working group
 
+## roadmap
+- consolidate the draft in a rdf format
+- open `api.participation-ontology.ch` platform to expose a [triple store](https://semapps.org/docs/triplestore) with data from public [decidim](https://decidim.org) plateforms (at first)
+
 ## contribution
+who can contribute? everyone is welcome, organizations and administrations inclued.
+what can you change? the [ontologies](./posts/ontologies) and the governance of the project are two things contributors can change.
+how can you change things? you can [open an issue](https://github.com/froger/civic-participation-schemas/issues/new) on github at anytime.
+
+what is the governance? issues are suggestion, the maintainers integrate the issues through a clarify/react/decide process. for now the maintainers only decide.
+
+
+## contributors
+-  [hadrien froger](https://github.com/froger)
+-  [lucas liechti](https://github.com/lucaliechti)
+-  daniel keller
+-  you?
 
 ## licence
 this work is licenced under [CC-BY-SA-2.0](https://creativecommons.org/licenses/by-sa/2.0/)
