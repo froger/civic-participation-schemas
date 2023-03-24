@@ -52,7 +52,15 @@ successors: Proposal[]
 activities: Activity[]
 ```
 
-## Activity (enumeration)
+## Activity
+```
+actor: Person | Organization
+do: ActivityVerb
+actsOn: Thing
+at: DateTime
+```
+
+### ActivityVerb
 
 ```
 Submission
